@@ -25,7 +25,8 @@ int main(int argc, char const *argv[])
     can.DrawPointLine(5 + frame,45,5 + frame,70);
     can.DrawPointLine(5 + frame,70, 14 + frame,70);
     can.DrawPointLine(5 + frame,45, 30 + frame,45);
-    can.DrawPointLine(100 + frame,45, 140 + frame,45);
+    can.DrawPointLine(110 + frame,45, 130 + frame,45);
+    can.DrawPointLine(130 + frame,45,130 + frame,70);
 
     Screen pantalla = Screen::Create(Dimension::Full(), Dimension::Full());
     Element lienzo = bgcolor(Color::White, canvas(&can));
